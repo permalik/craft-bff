@@ -1,0 +1,7 @@
+@CraftBff_HostAddress = http://localhost:5128
+
+GET {{CraftBff_HostAddress}}/turn
+Accept: application/json
+Content-Type: application/json
+
+{"body": "test"}

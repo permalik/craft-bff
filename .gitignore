@@ -1,0 +1,54 @@
+# .NET build artifacts
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj.user
+
+# dotnet CLI working folder
+.nuget/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Core
+appsettings.*.json
+appsettings.*.Development.json
+.env
+
+# Global cache folders
+packages/
+TestResults/
+*.dbmdl
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Optional: if using coverage tools
+coverage/
+*.coverage
+*.coveragexml
+lcov.info
+
+# Optional: if using Docker or containers
+**/.docker/
+docker-compose.override.yml
+
